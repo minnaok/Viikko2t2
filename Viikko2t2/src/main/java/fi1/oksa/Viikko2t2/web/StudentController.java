@@ -17,9 +17,9 @@ public class StudentController {
 		
 		ArrayList<Student> studentList = new ArrayList<>();
 		
-		studentList.add(new Student("Vellu", "Oksa"));
-		studentList.add(new Student("Dante", "Oksa"));
-		studentList.add(new Student("Minna", "Oksa"));
+		studentList.add(new Student("Vellu", "Von Ritari"));
+		studentList.add(new Student("Dante", "Lumiukko"));
+		studentList.add(new Student("Moona", "Prinsessa"));
 		System.out.println(studentList);
 		
 		model.addAttribute("students", studentList);
